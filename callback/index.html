@@ -1,0 +1,8 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>Tesla 연결</title>
+<body style="font-family:sans-serif;padding:24px">
+<h2>테슬라 승인 완료</h2>
+<p>아래 코드를 복사해서 Grok Bot의 보안 입력칸에 붙여넣어 주세요.</p>
+<textarea id="c" style="width:100%;height:120px" readonly></textarea>
+<script>var p=new URLSearchParams(location.search);document.getElementById('c').value=p.get('code')||('오류: '+(p.get('error')||'코드 없음'));</script>
+</body>
